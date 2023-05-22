@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: 'roboto';
+  font-size: 32px;
+  text-align: center;
+  color: #0f172a;
+}
+
+.message-container {
+  background-color: #ffffff;
+  height: 120px;
+  width: 300px;
+  border-radius: 4px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.description {
+  color: #475569;
+  font-family: 'roboto';
+  font-size: 22px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.success-heading {
+  color: #2dca73;
+  font-family: 'roboto';
+  font-size: 28px;
+  text-align: center;
+}
+
+.error-heading {
+  colo: #ff0b37;
+  font-family: 'roboto';
+  font-size: 28px;
+  text-align: center;
+}
+
+.warning-heading {
+  color: #ffb800;
+  font-family: 'roboto';
+  font-size: 28px;
+  text-align: center;
+}
+
+.info-heading {
+  color: #ffb800;
+  font-family: 'roboto';
+  font-size: 28px;
+  text-align: center;
+}
